@@ -4,11 +4,12 @@
 
 ### Exercise Steps
 
-1. Let's see where events appear: ​
+1. Let's see where events appear:
 
-* Check a Workload​
-* Check a Service​
-* Check a Pod​
+* Check a Workload
+* Check a Namespace
+* Check a Service
+* Check a Pod
 * Check a Container
 * Check a Process
 * Check a Host
