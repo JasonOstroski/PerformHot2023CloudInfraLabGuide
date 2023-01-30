@@ -4,10 +4,10 @@
 
 1. Navigate to Settings > Anomaly detection> Kubernetes/Workload
 2. Enable **Detect pending pods***
-3. Expand the Configuration section and set pending state for at least **5** minutes within last **10** minutes.
+3. Expand the Configuration section and set pending state for at least **1** minutes within last **2** minutes.
 > NOTE: Original values are 10 minutes in last 15 minutes
 
-![pending_pod](../../../assets/images/k8s_pending_pods.png)
+![pending_pod](../../../assets/images/pendingpods.png)
 
 4. In your shell run the following command to scale up the **loginservice** to far exceed capacity:
 
@@ -21,7 +21,7 @@ kubectl scale --replicas=100 deployment/loginservice -n easytrade
 kubectl get pods -l app=loginservice -n easytrade
 ```
 
-6. A "Pending pods" problem will open in about 5 minutes
+6. A "Pending pods" problem will open in a few minutes
 
 ![problem](../../../assets/images/k8s_pending_pod_problem.png)
 
