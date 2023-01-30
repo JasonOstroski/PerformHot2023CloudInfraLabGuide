@@ -1,4 +1,4 @@
-## OOM Alert
+## (Optional) OOM Alert
 
 ### Configure a custom alert for OOM Kills on containers
 
