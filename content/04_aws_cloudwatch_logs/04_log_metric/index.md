@@ -7,7 +7,7 @@
 ### First let’s look at the CLB logs
 - In the log viewer, search for
 ```bash
-content="clb”
+content="clb"
 ```
 - Notice how there’s a lot of numbers in the log?
 - We can parse these to use them in queries and metrics!
@@ -20,7 +20,7 @@ content="clb”
 - The parsers are prioritized top down, so the way we order the parsing rules changes the way Dynatrace applies them
 - Matcher:
 ``` bash
-content=": clb”
+content=": clb"
 ```
 - Parser:
 ```bash
@@ -32,7 +32,7 @@ SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:back
 ### CLB Log Parser with log level
 - Matcher:
 ``` bash
-content="clb”
+content="clb"
 ```
 - Parser:
 ```bash
@@ -49,7 +49,7 @@ SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:back
 - All of these attributes can be used for log metrics!
 - Click Create Metric  
 - Metric key: log.clb.requestprocessingtime
-- Matcher:  content="clb”
+- Matcher:  content="clb"
 - Metric Measurement: Attribute Value
 - Attribute: request.processing.time
 - Click Save changes
