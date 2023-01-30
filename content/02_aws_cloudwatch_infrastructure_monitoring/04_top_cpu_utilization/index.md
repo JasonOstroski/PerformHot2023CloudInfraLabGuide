@@ -4,7 +4,9 @@ Chart top CPU utilization from your EC2 instances​
 ![02_04_topcpu](../../../assets/images/02_04_topcpu.png)
 
 1. Select on the left Menu "Data explorer"​
-2. On the top right corner, select the chart as "Top list"​
+2. On the top left corner, select the chart as "Top list"​
+
+![02_04_chartselector](../../../assets/images/02_04_chartselector.png)
 3. On the metric selection type "EC2 CPU usage %"​
 4. Leave aggregation as Auto(avg)​
 5. Split by "EC2 instance"​
@@ -19,4 +21,4 @@ Chart top CPU utilization from your EC2 instances​
 8. Click on "Pin to Dashboard" button and select "Create new dashboard"​
 
 ![02_04_pintodashboard](../../../assets/images/02_04_pintodashboard.png)
-9. Open your new dashboard and rename it as "AWS overview"​
+9. Open your new dashboard and rename it as "Cloud Infrastructure Overview"​
