@@ -15,6 +15,10 @@
 - Configure an entity filter: *Name equals loginservice*
 - Threshold: *3*
 - Alert condition: *Alert if metric is below*
+- Advanced Model Properties: 
+-- Violating Samples: 1
+-- Sliding Window: 3
+-- Dealerting Samples: 3
 - Event title: *Running pods low for loginservice*
 - Description: *The {metricname} value was {alert_condition} normal behavior on workload {dims:k8s.workload.name}.*
 - Event type: *Custom*
