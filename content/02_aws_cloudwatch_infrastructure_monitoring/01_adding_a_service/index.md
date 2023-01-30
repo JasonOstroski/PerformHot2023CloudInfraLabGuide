@@ -10,4 +10,3 @@ One of our teams have just migrated their application to AWS. This application 
 6. Click on Manage Services
 7. Add a new Service
 8. Search the SQS service and click on Add Service
-- Note: Don’t save it, as you don’t have the permissions to add it
