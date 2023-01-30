@@ -23,7 +23,7 @@ unable to connect
 - Summary: RDS Connection Error
 - Log Query:
 ```bash
-content="error: 2 The following error occurred: Can't connect to MySQL server on 'db-qig94285-ac32d6-2a.rds.amazonaws.com' (10060) QMYSQL: Unable to connect”
+content="error: 2 The following error occurred: Can't connect to MySQL server"
 ```
 - Title: RDS Connection Error
 - Event Type: Error
