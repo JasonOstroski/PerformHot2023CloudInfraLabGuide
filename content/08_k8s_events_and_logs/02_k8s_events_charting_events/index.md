@@ -17,9 +17,9 @@ dt.kubernetes.node.name: NODE_NAME
 content: stopping container
 ```
 6. Format the table by adding the fields below:
-* dt.source_entity
-* dt.kubernetes.node.name
-* dt.kubernetes.cluster.name
+>- dt.source_entity
+>- dt.kubernetes.node.name
+>- dt.kubernetes.cluster.name
 
 7. Pin the table to your dashboardPin the table to your dashboard
 * Title: Stopping Container Events
