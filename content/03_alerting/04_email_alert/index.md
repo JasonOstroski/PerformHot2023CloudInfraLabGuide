@@ -14,6 +14,7 @@
 >- To: Your Email Address
 >- Alerting Profile: Disk Warning
 >- Save Changes
+
 3. Send test notification
 
 ![emailalert2](../../../assets/images/emailalert2.png)
