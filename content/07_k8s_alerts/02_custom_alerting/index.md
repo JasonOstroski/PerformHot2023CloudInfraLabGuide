@@ -23,6 +23,7 @@
 >- Description: *The {metricname} value was {alert_condition} normal behavior on workload {dims:k8s.workload.name}.*
 >- Event type: *Custom*
 >- Click the **Save** changes button
+
 4. In your shell run the following command to furth scale the **loginservice** down to a single pod:
 
 ```bash
