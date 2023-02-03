@@ -10,13 +10,13 @@
 
 1. Navigate to Settings > Alerting > Problem Alerting Profiles
 2. Add a Metric Event for just the Disk Warning Alert
-* Name: Disk Warning
-* Problem Severity: Custom
-* Problem Delay in Minutes: 10 minutes
-* Filter problems by tag: Include All Entities
-* Event Filter: Custom
-* Title Filter: Equals Disk Warning
-* Enabled
-* Save Changes
+>- Name: Disk Warning
+>- Problem Severity: Custom
+>- Problem Delay in Minutes: 10 minutes
+>- Filter problems by tag: Include All Entities
+>- Event Filter: Custom
+>- Title Filter: Equals Disk Warning
+>- Enabled
+>- Save Changes
 
 ![diskalert2](../../assets/images/diskalert2.png)
