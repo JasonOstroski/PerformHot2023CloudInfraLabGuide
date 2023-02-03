@@ -10,5 +10,6 @@
 >- Metric key: *Kubernetes: Container - out of memory (OOM) kill count*
 >- Static Threshold: *1*
 >- Event title: *Container OOMKills high for {entityname}*
+
 4. Click the **Save** changes button
 
