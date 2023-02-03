@@ -1,4 +1,4 @@
-## Log Metric Alert
+## Optional - Log Metric Alert
 
 - My AWS networking team wants to alert on the CLB request processing time, but doesn’t know what they should use for the threshold.
 
