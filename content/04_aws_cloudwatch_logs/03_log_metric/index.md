@@ -39,7 +39,7 @@ content="clb"
 PARSE(content, "STRING:clb.name SPACE IPADDR:client.ip ':' INT:client.port SPACE IPADDR:backend.ip ':' INT:'backend.port' SPACE double:'request.processing.time' SPACE double:'backend.processing.time'
 SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:backend.status.code SPACE INT:recieved.bytes SPACE INT:sent.bytes SPACE STRING:request SPACE")
 ```
-- Ensure the without log level rule is under the with rule
+- Ensure the "without" log level rule is under the "with" rule
 
 ![logmetric3](../../../assets/images/logmetric3.png)
 
