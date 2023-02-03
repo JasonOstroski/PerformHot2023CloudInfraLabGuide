@@ -4,12 +4,12 @@
 
 ### Exercise Steps
 
-1. Let's see where events appear: ​
+1. Let's see where events appear:
 
-* Check the k8s Cluster Page​
-* Check the k8s Node page​
-* Check a Namespace​
-* Check a Workload​
-* Check a Service​
-* Check a Pod​
-* Check a Container
+>- Check the k8s Cluster Page
+>- Check the k8s Node page
+>- Check a Namespace
+>- Check a Workload
+>- Check a Service
+>- Check a Pod
+>- Check a Container
