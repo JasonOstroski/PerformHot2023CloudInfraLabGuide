@@ -10,4 +10,4 @@
 log.k8s.easytrade.frontend.update​
 ```
 3. Click save changes​
-* This metric can now be used in a Metic Event alert or on a chart
+>- This metric can now be used in a Metic Event alert or on a chart
