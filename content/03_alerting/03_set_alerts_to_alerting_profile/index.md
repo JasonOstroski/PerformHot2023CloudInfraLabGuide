@@ -4,7 +4,7 @@
 - We can group alerts based on severity, impact, and tags with alerting profiles.
 
 
-![diskalert1](../../assets/images/diskalert1.png)
+![diskalert1](../../../assets/images/diskalert1.png)
 
 ### Exercise Steps
 
@@ -19,4 +19,4 @@
 >- Enabled
 >- Save Changes
 
-![diskalert2](../../assets/images/diskalert2.png)
+![diskalert2](../../../assets/images/diskalert2.png)
