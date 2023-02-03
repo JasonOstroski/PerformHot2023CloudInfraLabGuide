@@ -22,7 +22,7 @@ kubectl delete pod frontend-xxxxxxxx-xxxx -n easytrade
 kubectl get pod –n easytrade
 ```
 
-* Make sure the pod has been recycled, by re-running step 2. Check the timestamp of the new pod. 
+>- Make sure the pod has been recycled, by re-running step 2. Check the timestamp of the new pod. 
 
 6. Exit the Bastion Host 
 
