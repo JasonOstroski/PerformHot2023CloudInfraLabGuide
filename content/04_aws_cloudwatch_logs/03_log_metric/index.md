@@ -29,7 +29,7 @@ SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:back
 ```
 ![logmetric2](../../../assets/images/logmetric2.png)
 
-### CLB Log Parser with log level
+### CLB Log Parser without log level
 - Matcher:
 ``` bash
 content="clb"
