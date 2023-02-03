@@ -11,13 +11,13 @@
 
 1. Navigate to Settings > Anomaly Detection > Metric Events
 2. Add a Metric Event
-* Name: ALB Errors
-* Type: Metric Selector
-* Metric Selector: builtin:cloud.aws.alb.errors.alb.http4xx 
-* Model Type: Auto-Adaptive Threshold
-* Don’t alert on missing data
-* Alert Condition: Alert if metric is above
-* Preview the alert with last 1, 3, and 7 days' worth of data
-* Title: ALB Errors
-* Event Type: Error
-* Allow to merge
+>- Name: ALB Errors
+>- Type: Metric Selector
+>- Metric Selector: builtin:cloud.aws.alb.errors.alb.http4xx 
+>- Model Type: Auto-Adaptive Threshold
+>- Don’t alert on missing data
+>- Alert Condition: Alert if metric is above
+>- Preview the alert with last 1, 3, and 7 days' worth of data
+>- Title: ALB Errors
+>- Event Type: Error
+>- Allow to merge
