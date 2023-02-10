@@ -1,7 +1,7 @@
 ## Create an Auto-Adaptive Alert
 
 - We sometimes get 4xx errors on the ALB and have accepted that we can’t fix 100% of errors.
-- However, we want to Dynatrace to tell us if errors spike up outside of the norm without having to create thresholds ourselves.
+- However, we want Dynatrace to tell us if errors spike up outside of the norm without having to create thresholds ourselves.
 - The number of errors may fluctuate, and it would be great if Dynatrace could auto-adapt and let us know when big spikes occur
 
 
