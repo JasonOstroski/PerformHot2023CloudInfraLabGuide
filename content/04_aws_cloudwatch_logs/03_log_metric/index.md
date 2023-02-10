@@ -18,6 +18,8 @@ content="clb"
 ### CLB Log Parser with log level
 - We need to create 2 parsers because sometimes the logs have info: or error: in front of the content and sometimes it doesn’t.
 - The parsers are prioritized top down, so the way we order the parsing rules changes the way Dynatrace applies them
+- This rule is for the logs that have the log level in them
+- Rule Name: CLB Log Parser with log level
 - Matcher:
 ``` bash
 content=": clb"
@@ -27,9 +29,16 @@ content=": clb"
 PARSE(content, "LD:log.level ':' SPACE STRING:clb.name SPACE IPADDR:client.ip ':' INT:client.port SPACE IPADDR:backend.ip ':' INT:'backend.port' SPACE double:'request.processing.time' SPACE double:'backend.processing.time'
 SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:backend.status.code SPACE INT:recieved.bytes SPACE INT:sent.bytes SPACE STRING:request SPACE")
 ```
+- Test the parser and hit save
+
 ![logmetric2](../../../assets/images/logmetric2.png)
 
+
+
+
 ### CLB Log Parser without log level
+- This parser is for logs that DO NOT have log level in them
+- Rule Name: CLB Log Parser without log level
 - Matcher:
 ``` bash
 content="clb"
@@ -39,7 +48,8 @@ content="clb"
 PARSE(content, "STRING:clb.name SPACE IPADDR:client.ip ':' INT:client.port SPACE IPADDR:backend.ip ':' INT:'backend.port' SPACE double:'request.processing.time' SPACE double:'backend.processing.time'
 SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:backend.status.code SPACE INT:recieved.bytes SPACE INT:sent.bytes SPACE STRING:request SPACE")
 ```
-- Ensure the "without" log level rule is under the "with" rule
+- Test the parser and hit save
+- Ensure the "without" log level rule is under the "with" rule. You may have to click and drag the rules to re-order them.
 
 ![logmetric3](../../../assets/images/logmetric3.png)
 
