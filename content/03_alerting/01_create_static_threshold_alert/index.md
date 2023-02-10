@@ -12,7 +12,7 @@ We don’t want to change the OOTB Anomaly Detection as that will let us know wh
 >- Name: Disk Warning
 >-  Type: Metric Key
 >-  Metric Key: Disk Used %
->-  Aggregation: Average*
+>-  Aggregation: Average
 >-  Model Type: Static Threshold
 >-  Threshold: 80%
 >-  Alert Condition: Alert if metric is above
