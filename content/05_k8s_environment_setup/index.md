@@ -6,7 +6,7 @@
 2. Run the following command:
 
 ```bash
-kubectl get pod –n easytrade
+kubectl get pod -n easytrade
 ```
 
 3. Copy the full name of the "frontend pod" and paste it into the next command
@@ -19,7 +19,7 @@ kubectl delete pod frontend-xxxxxxxx-xxxx -n easytrade
 5. Re-run the following command: 
 
 ```bash
-kubectl get pod –n easytrade
+kubectl get pod -n easytrade
 ```
 
 >- Make sure the pod has been recycled, by re-running step 2. Check the timestamp of the new pod. 
