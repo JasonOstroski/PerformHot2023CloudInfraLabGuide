@@ -55,7 +55,8 @@ SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:back
 
 
 ### Create the Metric
-- Now that the log is parsed out, let’s take a look at how new CLB logs look in the log viewer
+- Now that the log is parsed out, let’s take a look at how new CLB logs look in the log viewer. 
+- Navigate back to the log viewer
 - All of these attributes can be used for log metrics!
 
 ![logmetric4](../../../assets/images/logmetric4.png)
