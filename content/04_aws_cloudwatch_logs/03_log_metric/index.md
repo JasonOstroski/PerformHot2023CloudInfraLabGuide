@@ -57,6 +57,9 @@ SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:back
 ### Create the Metric
 - Now that the log is parsed out, let’s take a look at how new CLB logs look in the log viewer
 - All of these attributes can be used for log metrics!
+- 
+![logmetric4](../../../assets/images/logmetric4.png)
+
 - Click Create Metric  
 - Metric key: log.clb.requestprocessingtime
 - Matcher:  content="clb"
@@ -64,12 +67,10 @@ SPACE double:'response.processing.time' SPACE INT:elb.status_code SPACE INT:back
 - Attribute: request.processing.time
 - Click Save changes
 
-![logmetric4](../../../assets/images/logmetric4.png)
 ![logmetric5](../../../assets/images/logmetric5.png)
 
 
 ### Add the metric to the dashboard
-- Once we get some new data in, we can chart out the new log metric and add it to our Cloud Infrastructure Overview dashboard
 - Navigate to Data Explorer
 - Type in log.clb to find your metric
 - Run Query
