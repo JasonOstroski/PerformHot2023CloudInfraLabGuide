@@ -9,6 +9,7 @@
 - Navigate to  Settings> Anomaly Detection> Metric Events
 - Add metric event
 - Summary: CLB Request Processing Time
+- Type: Metric Selector
 - Metric Selector: log.clb.requestprocessingtime
 - Aggregation: Average
 - Model type: Auto-adaptive threshold
