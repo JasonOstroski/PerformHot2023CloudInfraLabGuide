@@ -9,7 +9,7 @@ We don’t want to change the OOTB Anomaly Detection as that will let us know wh
 
 1. Navigate to Settings > Anomaly Detection > Metric Events
 2. Add a Metric Event
->- Name: Disk Warning
+>- Summary Name: Disk Warning
 >-  Type: Metric Key
 >-  Metric Key: Disk Used %
 >-  Aggregation: Average
