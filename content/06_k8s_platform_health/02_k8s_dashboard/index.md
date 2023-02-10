@@ -2,8 +2,8 @@
 
 ### Exercise Steps
 
-1. Navigate to Kubernetes > dynakube > Namespaces > "easytrade" 
-
->- Pin a metric from Namespace "easytrade" to your "Cloud Infrastructure Overview" dashboard
->- What is the max resource analysis for both Memory (GiB) and CPU (cores)? 
->- What is the max workload analysis for Pods and Workloads in the "easytrade" namespace? 
+- Navigate to Kubernetes > dynakube > Namespaces > "easytrade" 
+>- Resource/workload analysis (CPU/Memory) 
+>- Pin a metric from namespace "easytrade" to "Cloud Infrastructure Overview" dashboard 
+>- What is the max resource analysis for both Memory (GiB) and CPU (cores)? 
+>- What are the current values for Pods and Workloads in the "easytrade" namespace?
